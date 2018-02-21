@@ -1,10 +1,12 @@
 {
   "name": "things-json",
-  "version": "0.0.1",
-  "description": "Things 3.4 url scheme JSON builder utility",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "A Things v3.4+ JSON Coder",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest --coverage",
+    "dev": "jest --watch",
+    "prepublish": "babel src --out-dir dist --copy-files"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,17 @@
   "bugs": {
     "url": "https://github.com/seripap/things-json/issues"
   },
-  "homepage": "https://github.com/seripap/things-json#readme"
+  "homepage": "https://github.com/seripap/things-json#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^22.4.0",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/"
+  }
 }
