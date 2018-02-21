@@ -1,8 +1,8 @@
-# Things 3.4 JSON Coder
+# Things App JSON Coder
 
 [![Build Status](https://travis-ci.org/seripap/things-json.svg?branch=master)](https://travis-ci.org/seripap/things-json) [![codecov](https://codecov.io/gh/seripap/things-json/branch/master/graph/badge.svg)](https://codecov.io/gh/seripap/things-json)
 
-This builds a valid Things URL to interact with Things app for Mac v3.4. [Read more](https://support.culturedcode.com/customer/en/portal/articles/2803573).
+This builds a valid Things App URL to interact with Cultured Code's Things app v3.4+. [Read more](https://support.culturedcode.com/customer/en/portal/articles/2803573).
 
 ## Getting Started
 
