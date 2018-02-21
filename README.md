@@ -16,6 +16,9 @@ Inclusion
 
 ```js
 import ThingsJSC from 'things-json';
+
+// Or if not using babel
+const ThingsJSC = require('things-json').default;
 ```
 
 For documentation and references, [see the official docs](https://support.culturedcode.com/customer/en/portal/articles/2803573).

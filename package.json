@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --coverage",
     "dev": "jest --watch",
-    "prepublish": "babel src --out-dir dist --copy-files"
+    "prepublish": "rimraf dist && babel src --ignore spec.js --out-dir dist --copy-files"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,8 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-0": "^6.24.1",
     "jest": "^22.4.0",
-    "regenerator-runtime": "^0.11.1"
+    "regenerator-runtime": "^0.11.1",
+    "rimraf": "^2.6.2"
   },
   "jest": {
     "coverageDirectory": "./coverage/"
