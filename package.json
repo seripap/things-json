@@ -1,0 +1,26 @@
+{
+  "name": "things-json",
+  "version": "0.0.1",
+  "description": "Things 3.4 url scheme JSON builder utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seripap/things-json.git"
+  },
+  "keywords": [
+    "things",
+    "app",
+    "mac",
+    "json",
+    "builder"
+  ],
+  "author": "Daniel Seripap <daniel@seripap.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seripap/things-json/issues"
+  },
+  "homepage": "https://github.com/seripap/things-json#readme"
+}
