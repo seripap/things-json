@@ -98,7 +98,7 @@ const url = ThingsJSC.url(project);
 
 ```js
 const newTodo = {
-    title: 'Buy mulk',
+    title: 'Buy milk',
 };
 const newProject = {
     title: 'Go Shopping',
